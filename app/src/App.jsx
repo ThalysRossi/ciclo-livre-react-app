@@ -4,12 +4,11 @@ import Home from "./pages/Home";
 import UnderConstruction from "./pages/UnderConstruction";
 
 function App() {
-  console.log(featureFlags.underConstruction);
   if (featureFlags.underConstruction) {
     return (
-      <>
+      <div className="overflow-hidden">
         <UnderConstruction />
-      </>
+      </div>
     );
   }
   return (
