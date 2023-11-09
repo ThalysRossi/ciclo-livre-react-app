@@ -6,16 +6,18 @@ import UnderConstruction from "./pages/UnderConstruction";
 function App() {
   if (featureFlags.underConstruction) {
     return (
-      <div className="overflow-hidden">
+      <div>
         <UnderConstruction />
       </div>
     );
   }
   return (
-    <div>
+    <>
       <Header />
-      <Home />
-    </div>
+      <main>
+        <Home />
+      </main>
+    </>
   );
 }
 

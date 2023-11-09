@@ -8,6 +8,9 @@ module.exports = {
     extend: {
       colors: {
         clRed: '#D6230C'
+      },
+      scale: {
+        '-100': '-1',
       }
     },
   },
