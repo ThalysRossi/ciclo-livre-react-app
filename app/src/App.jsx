@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import { featureFlags } from "./FeatureFlags";
 import Home from "./pages/Home";
+import Project from "./pages/Project";
 import UnderConstruction from "./pages/UnderConstruction";
 
 function App() {
@@ -12,12 +13,13 @@ function App() {
     );
   }
   return (
-    <>
+    <div className="flex flex-col w-full h-screen">
       <Header />
-      <main>
+      <main className="flex-grow relative m-0">
         <Home />
+        <Project />
       </main>
-    </>
+    </div>
   );
 }
 
