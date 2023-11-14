@@ -7,7 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        clRed: '#D6230C'
+        clRed: '#D6230C',
+        clPink: '#FFECF0',
+        clGrey: '#F4F4F4',
+        clParadisePink: '#EB4E6C'
       },
       scale: {
         '-100': '-1',

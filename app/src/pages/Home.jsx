@@ -3,7 +3,7 @@ import layer from "../assets/Layer_1.png";
 const Home = () => {
   return (
     <div
-      className="flex flex-col pt-28 w-full h-full bg-clRed items-start justify-evenly"
+      className="flex flex-col h-[10%] w-full pt-28 relative bg-clRed items-start justify-evenly overflow-hidden"
       id="Home"
     >
       <img
@@ -25,10 +25,10 @@ const Home = () => {
           </button>
         </div>
       </div>
-      <div className="w-full h-full relative md:w-3/4 md:h-3/4 z-10">
+      <div className="h-full w-full md:w-3/4 md:h-3/4 z-10">
         <img
           src={hands}
-          className="w-full h-full object-cover absolute md:left-auto md:right-0 md:bottom-0 md:scale-x-100 md:w-3/4 md:h-3/4"
+          className="w-full h-full object-fill absolute md:left-auto md:right-0 md:bottom-0 md:scale-x-100 md:w-3/4 md:h-3/4"
         ></img>
       </div>
     </div>
