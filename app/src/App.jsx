@@ -10,13 +10,6 @@ import Testimonies from "./pages/Testimonies";
 import UnderConstruction from "./pages/UnderConstruction";
 
 function App() {
-  if (featureFlags.underConstruction) {
-    return (
-      <div>
-        <UnderConstruction />
-      </div>
-    );
-  }
   return (
     <div className="flex flex-col w-full h-screen">
       <Header />
