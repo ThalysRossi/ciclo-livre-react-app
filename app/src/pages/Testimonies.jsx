@@ -37,7 +37,7 @@ const Testimonies = () => {
       >
         Alguns depoimentos que coletamos ao longo da jornada!
       </h1>
-      <div className="flex flex-col px-8 gap-7" ref={refContent1}>
+      <div className="flex flex-col px-8 gap-7">
         <div
           className={`flex flex-col items-center border-2 border-clParadisePink rounded-2xl transition-opacity ease-in duration-700 ${
             isVisibleCard1 ? "opacity-100" : "opacity-0"
