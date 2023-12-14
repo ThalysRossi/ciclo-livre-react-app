@@ -7,10 +7,10 @@ const HamburgerMenu = () => {
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md z-50 px-4 py-2 text-sm font-medium focus:outline-none focus-visible:ring-2 ">
-            <div class="space-y-2">
-              <span class="block w-5 h-0.5 bg-clRed"></span>
-              <span class="block w-5 h-0.5 bg-clRed"></span>
-              <span class="block w-5 h-0.5 bg-clRed"></span>
+            <div className="space-y-2">
+              <span className="block w-5 h-0.5 bg-clRed"></span>
+              <span className="block w-5 h-0.5 bg-clRed"></span>
+              <span className="block w-5 h-0.5 bg-clRed"></span>
             </div>
           </Menu.Button>
         </div>

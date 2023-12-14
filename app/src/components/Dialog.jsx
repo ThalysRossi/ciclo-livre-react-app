@@ -14,11 +14,11 @@ export default function Modal() {
 
   return (
     <>
-      <div className="flex items-center justify-center">
+      <div className="flex items-center md:justify-start justify-center">
         <button
           type="button"
           onClick={openModal}
-          className="rounded-md px-4 py-2 text-sm font-medium text-clRed underline underline-offset-1"
+          className="rounded-md px-4 py-2 text-sm font-medium md:text-left md:text-lg md:italic text-clRed underline underline-offset-1"
         >
           Clique aqui e saiba mais
         </button>

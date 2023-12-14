@@ -19,17 +19,25 @@ const Header = () => {
             </a>
           </li>
           <li>
-            <a>
-              <span className=" hover:font-semibold focus:outline-1">
+            <a href="#Activities">
+              <span className="hover:font-semibold focus:outline-1">
                 Como atuamos
               </span>
             </a>
           </li>
           <li>
-            <a>Impactos</a>
+            <a href="#Impacts">
+              <span className="hover:font-semibold focus:outline-1">
+                Impactos
+              </span>
+            </a>
           </li>
           <li>
-            <a>Depoimentos</a>
+            <a href="#Testimonies">
+              <span className="hover:font-semibold focus:outline-1">
+                Depoimentos
+              </span>
+            </a>
           </li>
         </ul>
       </div>
